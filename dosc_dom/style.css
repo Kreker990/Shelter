@@ -1,0 +1,15 @@
+.modal{
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 3;
+    top:50%;
+    width: 50%;
+    height: 300px;
+    left: 25%;
+}
+.phone{
+    display: none;
+}
+.closed_modal{
+display: none;
+}

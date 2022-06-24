@@ -1,0 +1,132 @@
+/* @media(min-width:767px){
+    
+}     если верстку начали под мобилку
+@media(min-width:1280px){
+    
+} */
+@media (max-width:767px){
+    #panel{
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    #panel-right{
+        width: 80%;
+        justify-content: space-between;
+        /* background-color: blue; */
+    }
+    #ul{
+        width: 90%;
+    }
+    .section-1{
+        height: 150%;
+        width: 100%;
+        /* background-color: brown; */
+    }
+    .section-1-div{
+        height: 100%;
+        /* background-color: aqua; */
+    }
+    .section-1-div-div2{
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        justify-content: space-between;
+        /* background-color: chartreuse; */
+    }
+    .section-4{
+        height: 700px;
+        /* background-color: brown; */
+        
+    }
+    .section-4-div{
+        height: 80%;
+        /* background-color: aqua; */
+        flex-wrap: wrap;
+        
+    }
+    .sec2-div-botton{
+        display: none;
+    }
+    .ddr{
+        width: 90%;
+    }
+    #header{
+        background-size: contain;
+        justify-content: center;
+        height: 120%;
+    }
+    .pets2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: flex-end;
+        height: 150px;
+    }
+    .pets2_sobaki{
+        height: 300%;
+    }
+}
+@media (max-width:320px){
+    #panel{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #panel-right{
+        /* background-color: aquamarine; */
+        width: 90%;
+    }
+    .section-1-div{
+        flex-wrap: wrap-reverse;
+    }
+    #ul{
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        width: 100%;
+    }
+    .footer{
+        height: 600px;
+    }
+    .footer-info{
+        height: 80%;
+        width: 100%;
+        /* background-color: aqua; */
+        justify-content: center;
+    }
+    #header{
+        background-size: cover;
+        justify-content: center;
+    }
+    .img_edin{
+        width: 100%;
+    }
+    .sec4-div-div2{
+        width: 100%;
+    }
+    .sec4-h5{
+        font-size: 12px;
+    }
+    .sec4-div-div2-div{
+        width: 100%;
+    }
+    .sec3-div-div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sec2-div-div{
+        flex-wrap: wrap;
+        height: auto;
+        /* background-color: blue; */
+    }
+    .sec2-div{
+        /* background-color: brown; */
+        height: 90%;
+        /* justify-content: space-between; */
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2-fotki{
+        /* background-color: aqua;   */
+        height: 30%;width: 40%;
+    }
+}
